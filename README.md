@@ -1,6 +1,6 @@
 Fine-grained Image Retrieval
 --------------------------
-This is the Official Pytorch-Lightning implementation of the paper: "Fine-grained Hashing"(https://arxiv.org/abs/2). 
+This is the Official Pytorch-Lightning implementation of the paper: "Fine-grained Hashing"(https://arxiv.org/abs/2303.11274). 
 ## Requirements
 * Python3
 * PyTorch
@@ -30,7 +30,12 @@ python main.py --dataset food101 --gpu 0, --batch_size=128 --code_length=32 --nu
 ## Citation
 If you find our work inspiring or use our codebase in your research, please cite our work.
 ```
-@inproceedings{
-    year={2023}
+@misc{zeng2023cascading,
+      title={Cascading Hierarchical Networks with Multi-task Balanced Loss for Fine-grained hashing}, 
+      author={Xianxian Zeng and Yanjun Zheng},
+      year={2023},
+      eprint={2303.11274},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV}
 }
 ```

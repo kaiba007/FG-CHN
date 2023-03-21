@@ -35,9 +35,9 @@ class HInterface(pl.LightningModule):
 
         loss = loss.mean()
 
-        # self.log('train_loss', loss)
-        # self.log('alpha1', alpha1)
-        # self.log('alpha2', alpha2)
+        self.log('train_loss', loss)
+        self.log('alpha1', alpha1)
+        self.log('alpha2', alpha2)
 
         return loss
 

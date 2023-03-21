@@ -6,6 +6,7 @@ from torch.autograd import Function
 
 import random
 
+# generate zoom_image like Saliency-Sampler(ECCV2018)
 def batch_augment(images, feature_map, mode='zoom'):
     batches, _, imgH, imgW = images.size()
     if mode == 'zoom':
